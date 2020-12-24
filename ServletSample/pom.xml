@@ -13,8 +13,16 @@
   <maven.compiler.plugin.version>3.5.1</maven.compiler.plugin.version>
   
   </properties>
-  
+
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/com.stripe/stripe-java -->
+    <dependency>
+      <groupId>com.stripe</groupId>
+      <artifactId>stripe-java</artifactId>
+      <version>20.27.0</version>
+    </dependency>
+
+
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
